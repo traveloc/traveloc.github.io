@@ -1,0 +1,89 @@
+/* main.css */
+body, div, html, ul, p{
+	margin: 0 auto;
+	padding: 0;
+}
+			
+ul li{
+	display: inline;
+	margin:5%;
+}
+			
+a{
+	text-decoration: none;
+	color: black;
+}
+			
+a:hover{		
+	color:#81d8d0;
+	transition: 1s;
+}
+			
+#topNav{
+	width: 100%;
+	text-align:center;
+	padding-bottom:20px;
+	padding-top:20px;
+}
+			
+#banner{
+	margin: 0 auto;
+	width: 100%;
+	height: 50%;
+	text-align:center;
+	background-size: 100%;
+}
+			
+#wrapper{
+	width: 1215px;
+}
+			
+#quote{
+	margin: 10px;
+	text-align:center;
+}
+			
+#mainQuote{
+	margin-bottom: 20px;
+	font-size:38px;
+}
+			
+#secondQuote{
+	font-size:18px;
+	margin: 20px;
+	font-style: italic;
+}
+			
+#oc{
+	color:#81d8d0;
+}
+			
+.collectionThumbnail{
+	float:left;
+	width:380px;
+	margin: 1%;
+	text-align:justify;
+}
+			
+.collectionThumbnail p {
+	font-family: Verdana, sans-serif;
+}
+			
+#collection img {
+	width: 380px;
+}
+
+#footer{
+	clear:both;
+	background-color:#81d8d0;
+	padding: 10px;
+	width: 100%;
+	font-family:Verdana, sans-serif;
+}
+			
+#footer p{
+	padding-top: 20px;
+    text-align: center;
+	line-height:0px;
+	height: 20px;
+}
